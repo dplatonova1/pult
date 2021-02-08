@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Futura PT";
+  src: url(../../fonts/FuturaPT-ExtraBold.eot) format("eot");
+  src: url(../../fonts/FuturaPT-ExtraBold.woff) format("woff");
+  src: url(../../fonts/FuturaPT-ExtraBold.ttf) format("ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url(../../fonts/FuturaPT-Bold.eot) format("eot");
+  src: url(../../fonts/FuturaPT-Bold.woff) format("woff");
+  src: url(../../fonts/FuturaPT-Bold.ttf) format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url(../../fonts/FuturaPT-Book.eot) format("eot");
+  src: url(../../fonts/FuturaPT-Book.woff) format("woff");
+  src: url(../../fonts/FuturaPT-Book.ttf) format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.typo__fs_l {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+
+.typo__fs_m {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.typo__fs_sm {
+    font-size: 1rem;
+  }
+
+.typo__fs_s {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+@media screen and (max-width: 1024px){
+    .typo__fs_l {
+        font-size: 1.6rem;
+        line-height: 2rem;
+      }
+      .typo__fs_m {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+      }
+
+      .typo__fs_sm {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+      }
+  } 
